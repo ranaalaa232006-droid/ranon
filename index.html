@@ -1,28 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Module 2 Solution</title>
-  <!-- ربط مباشر بالملف اللي جنب index.html -->
-  <link rel="stylesheet" href="styles.css">
+  <title>Module 3 Solution</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Our Menu</h1>
 
-  <section class="card">
-    <div class="card__title">Chicken</div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula felis at neque bibendum...</p>
-  </section>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Food, LLC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <section class="card">
-    <div class="card__title">Beef</div>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
-  </section>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto text-center w-100">
+          <li class="nav-item col-12">
+            <a class="nav-link" href="#chicken">Chicken</a>
+          </li>
+          <li class="nav-item col-12">
+            <a class="nav-link" href="#beef">Beef</a>
+          </li>
+          <li class="nav-item col-12">
+            <a class="nav-link" href="#sushi">Sushi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <section class="card">
-    <div class="card__title">Sushi</div>
-    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
-  </section>
+  <!-- Page Heading -->
+  <h1 class="text-center my-4">Our Menu</h1>
+
+  <!-- Sections -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4" id="chicken">
+        <section class="card p-3">
+          <h2 class="text-center">Chicken</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula felis at neque bibendum, nec luctus elit porttitor. 
+            Aenean vitae magna sit amet libero facilisis condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Donec vehicula felis at neque bibendum, nec luctus elit porttitor.</p>
+        </section>
+      </div>
+
+      <div class="col-12 mb-4" id="beef">
+        <section class="card p-3">
+          <h2 class="text-center">Beef</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+        </section>
+      </div>
+
+      <div class="col-12 mb-4" id="sushi">
+        <section class="card p-3">
+          <h2 class="text-center">Sushi</h2>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
