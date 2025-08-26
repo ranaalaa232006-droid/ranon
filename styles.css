@@ -1,27 +1,14 @@
-/* css/styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
-  padding: 20px;
-}
-
-h1 {
-  color: #2c3e50;
-  text-align: center;
+  background-color: #fafafa;
 }
 
 .card {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 16px;
-  margin: 16px auto;
-  max-width: 400px;
+  min-height: 400px; /* علشان يبقى في Scroll */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.card__title {
-  font-size: 1.5em;
-  margin-bottom: 8px;
-  color: #e74c3c;
+.navbar-nav .nav-item {
+  border-bottom: 1px solid #ddd; /* يفصل الأزرار في الموبايل */
 }
+
