@@ -1,12 +1,12 @@
-/* General body styling */
+/* Body & General Styling */
 body {
-  background-color: #f8f9fa; /* رمادي فاتح */
+  background-color: #f8f9fa;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Navbar */
+/* Navbar Enhancements */
 .navbar {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -21,8 +21,8 @@ body {
   text-decoration: underline;
 }
 
-/* Title */
-h1 {
+/* Page Title */
+h1, h2 {
   color: #ff5722;
   font-weight: bold;
   margin: 30px 0;
@@ -30,11 +30,11 @@ h1 {
   text-align: center;
 }
 
-/* Cards */
+/* Card Styling */
 .card {
   border: none;
   border-radius: 12px;
-  overflow: hidden;
+  background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -43,18 +43,7 @@ h1 {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.card-title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #ff5722;
-}
-
-.card-text {
-  color: #555;
-  font-size: 1rem;
-}
-
-/* Footer */
+/* Footer (optional - add HTML if you want it to show) */
 footer {
   margin-top: 40px;
   padding: 15px;
@@ -63,4 +52,5 @@ footer {
   color: #fff;
   font-size: 0.9rem;
 }
+
 
